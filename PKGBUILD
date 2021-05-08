@@ -1,6 +1,6 @@
 # Maintainer: Holloway <me@holloway-web.de>
 pkgname=hw-alarm-server
-pkgver=1.0.1
+pkgver=1.1.0
 pkgrel=1
 pkgdesc='Server script for alarms.'
 arch=('any')
@@ -12,7 +12,7 @@ depends=('alsa-lib'
 	'python-simpleaudio')
 source=("https://github.com/holloway87/alarm-server/archive/refs/tags/v$pkgver.tar.gz"
 	'alarm-server.service')
-md5sums=('31b9f4249c0f92c288ee29c097023db6'
+md5sums=('e7529c549d39dac26c44267363431a47'
     '115f546f7d6e2469ab64a29c7077b0aa')
 
 package()
